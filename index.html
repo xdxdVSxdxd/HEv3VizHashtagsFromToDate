@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>HEv3 Visualize hashtags from date to date</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="UTF-8"> 
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="materialize.css"  media="screen,projection"/>
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+<body>
+	
+	<div class="container">
+    
+
+    	<div class="row">
+    		<div class="col s12">
+    			<h1>HEv3 Visualize hashtags from date to date</h1>	
+    		</div>
+    	</div>
+
+
+    	<div class="row">
+    		<div class="col s12">
+    			<h4>Choose dates</h1>	
+    		</div>
+    	</div>
+
+    	<div class="row">
+    		<div class="col s6">
+    			<strong>From date</strong>
+    		</div>
+    		<div class="col s6">
+    			<strong>To date</strong>
+    		</div>
+    	</div>
+
+    	<div class="row">
+    		<div class="col s6">
+    			
+				<input type="text" class="datepicker" id="fromdate">
+        
+    		</div>
+    		<div class="col s6">
+    			<input type="text" class="datepicker" id="todate">
+    		</div>
+    	</div>
+
+    	<div class="row">
+    		<div class="col s12 right-align">
+    			<a class="btn-floating pulse" id="vizualize"><i class="material-icons">arrow_forward</i></a>
+    		</div>
+    	</div>
+
+    	<div class="divider"></div>
+
+
+		<div class="row">
+    		<div class="col s12">
+    			<div id="visualization"></div>
+    		</div>
+    	</div>
+
+
+
+	</div>
+	
+		
+	
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>  
+    <script src="js/d3.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
